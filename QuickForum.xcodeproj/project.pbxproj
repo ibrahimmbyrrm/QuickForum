@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AD80AF5BF060EC0C3F04206 /* Pods_QuickForum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A04E3A0055C16B49F071B92 /* Pods_QuickForum.framework */; };
 		80C9CD2D29356B4A0005D35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD2C29356B4A0005D35A /* AppDelegate.swift */; };
 		80C9CD2F29356B4A0005D35A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD2E29356B4A0005D35A /* SceneDelegate.swift */; };
 		80C9CD3129356B4A0005D35A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD3029356B4A0005D35A /* ViewController.swift */; };
 		80C9CD3429356B4A0005D35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9CD3229356B4A0005D35A /* Main.storyboard */; };
 		80C9CD3629356B4B0005D35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C9CD3529356B4B0005D35A /* Assets.xcassets */; };
 		80C9CD3929356B4B0005D35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9CD3729356B4B0005D35A /* LaunchScreen.storyboard */; };
+		80C9CD41293572920005D35A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD40293572920005D35A /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A04E3A0055C16B49F071B92 /* Pods_QuickForum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickForum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C9CD2929356B4A0005D35A /* QuickForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C9CD2C29356B4A0005D35A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C9CD2E29356B4A0005D35A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		80C9CD3529356B4B0005D35A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C9CD3829356B4B0005D35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C9CD3A29356B4B0005D35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C9CD40293572920005D35A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C28EB9DA7D188FFF19B80F01 /* Pods-QuickForum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickForum.release.xcconfig"; path = "Target Support Files/Pods-QuickForum/Pods-QuickForum.release.xcconfig"; sourceTree = "<group>"; };
+		E4E667AC203D8AD03564E52A /* Pods-QuickForum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickForum.debug.xcconfig"; path = "Target Support Files/Pods-QuickForum/Pods-QuickForum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD80AF5BF060EC0C3F04206 /* Pods_QuickForum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27E4BEE5CCFAAF41E3D32C63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A04E3A0055C16B49F071B92 /* Pods_QuickForum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80C9CD2029356B4A0005D35A = {
 			isa = PBXGroup;
 			children = (
 				80C9CD2B29356B4A0005D35A /* QuickForum */,
 				80C9CD2A29356B4A0005D35A /* Products */,
+				F7D2BA1D0CF5AD236A98466D /* Pods */,
+				27E4BEE5CCFAAF41E3D32C63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,18 @@
 				80C9CD3529356B4B0005D35A /* Assets.xcassets */,
 				80C9CD3729356B4B0005D35A /* LaunchScreen.storyboard */,
 				80C9CD3A29356B4B0005D35A /* Info.plist */,
+				80C9CD40293572920005D35A /* RegisterViewController.swift */,
 			);
 			path = QuickForum;
+			sourceTree = "<group>";
+		};
+		F7D2BA1D0CF5AD236A98466D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E667AC203D8AD03564E52A /* Pods-QuickForum.debug.xcconfig */,
+				C28EB9DA7D188FFF19B80F01 /* Pods-QuickForum.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C9CD3D29356B4B0005D35A /* Build configuration list for PBXNativeTarget "QuickForum" */;
 			buildPhases = (
+				E128BD58613471F006DF2D08 /* [CP] Check Pods Manifest.lock */,
 				80C9CD2529356B4A0005D35A /* Sources */,
 				80C9CD2629356B4A0005D35A /* Frameworks */,
 				80C9CD2729356B4A0005D35A /* Resources */,
+				4E32874395E4D258E9B31231 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E32874395E4D258E9B31231 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickForum/Pods-QuickForum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickForum/Pods-QuickForum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickForum/Pods-QuickForum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E128BD58613471F006DF2D08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickForum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80C9CD2529356B4A0005D35A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +212,7 @@
 				80C9CD3129356B4A0005D35A /* ViewController.swift in Sources */,
 				80C9CD2D29356B4A0005D35A /* AppDelegate.swift in Sources */,
 				80C9CD2F29356B4A0005D35A /* SceneDelegate.swift in Sources */,
+				80C9CD41293572920005D35A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +354,7 @@
 		};
 		80C9CD3E29356B4B0005D35A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E667AC203D8AD03564E52A /* Pods-QuickForum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +383,7 @@
 		};
 		80C9CD3F29356B4B0005D35A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28EB9DA7D188FFF19B80F01 /* Pods-QuickForum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

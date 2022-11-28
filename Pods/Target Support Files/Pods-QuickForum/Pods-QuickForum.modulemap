@@ -1,0 +1,6 @@
+framework module Pods_QuickForum {
+  umbrella header "Pods-QuickForum-umbrella.h"
+
+  export *
+  module * { export * }
+}
