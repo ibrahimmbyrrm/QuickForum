@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5AD80AF5BF060EC0C3F04206 /* Pods_QuickForum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A04E3A0055C16B49F071B92 /* Pods_QuickForum.framework */; };
+		800D0DB929368C1C0058B6F5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D0DB829368C1C0058B6F5 /* FeedViewController.swift */; };
+		800D0DBF29369BB10058B6F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D0DBE29369BB10058B6F5 /* Post.swift */; };
+		800D0DC129369BD50058B6F5 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D0DC029369BD50058B6F5 /* FeedTableViewCell.swift */; };
+		808E145C293786B500988AF2 /* OwnFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E145B293786B500988AF2 /* OwnFeedTableViewCell.swift */; };
+		80A861E0293631FD00E3A90D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A861DF293631FD00E3A90D /* ProfileViewController.swift */; };
+		80A861E229363D3400E3A90D /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A861E129363D3400E3A90D /* UploadViewController.swift */; };
 		80C9CD2D29356B4A0005D35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD2C29356B4A0005D35A /* AppDelegate.swift */; };
 		80C9CD2F29356B4A0005D35A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD2E29356B4A0005D35A /* SceneDelegate.swift */; };
 		80C9CD3129356B4A0005D35A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9CD3029356B4A0005D35A /* ViewController.swift */; };
@@ -19,6 +25,12 @@
 
 /* Begin PBXFileReference section */
 		4A04E3A0055C16B49F071B92 /* Pods_QuickForum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickForum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800D0DB829368C1C0058B6F5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		800D0DBE29369BB10058B6F5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		800D0DC029369BD50058B6F5 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		808E145B293786B500988AF2 /* OwnFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnFeedTableViewCell.swift; sourceTree = "<group>"; };
+		80A861DF293631FD00E3A90D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		80A861E129363D3400E3A90D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		80C9CD2929356B4A0005D35A /* QuickForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C9CD2C29356B4A0005D35A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C9CD2E29356B4A0005D35A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +93,12 @@
 				80C9CD3729356B4B0005D35A /* LaunchScreen.storyboard */,
 				80C9CD3A29356B4B0005D35A /* Info.plist */,
 				80C9CD40293572920005D35A /* RegisterViewController.swift */,
+				80A861DF293631FD00E3A90D /* ProfileViewController.swift */,
+				80A861E129363D3400E3A90D /* UploadViewController.swift */,
+				800D0DB829368C1C0058B6F5 /* FeedViewController.swift */,
+				800D0DBE29369BB10058B6F5 /* Post.swift */,
+				800D0DC029369BD50058B6F5 /* FeedTableViewCell.swift */,
+				808E145B293786B500988AF2 /* OwnFeedTableViewCell.swift */,
 			);
 			path = QuickForum;
 			sourceTree = "<group>";
@@ -210,9 +228,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C9CD3129356B4A0005D35A /* ViewController.swift in Sources */,
+				80A861E229363D3400E3A90D /* UploadViewController.swift in Sources */,
 				80C9CD2D29356B4A0005D35A /* AppDelegate.swift in Sources */,
+				800D0DBF29369BB10058B6F5 /* Post.swift in Sources */,
+				808E145C293786B500988AF2 /* OwnFeedTableViewCell.swift in Sources */,
+				80A861E0293631FD00E3A90D /* ProfileViewController.swift in Sources */,
 				80C9CD2F29356B4A0005D35A /* SceneDelegate.swift in Sources */,
 				80C9CD41293572920005D35A /* RegisterViewController.swift in Sources */,
+				800D0DC129369BD50058B6F5 /* FeedTableViewCell.swift in Sources */,
+				800D0DB929368C1C0058B6F5 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
